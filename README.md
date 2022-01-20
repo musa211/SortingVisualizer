@@ -7,7 +7,22 @@
 - Coming soon
 - Coming soon
 
+## Demo
 
+![SortingVisualizer](https://user-images.githubusercontent.com/71911458/150398910-2725f140-4494-463c-85f4-35aba2afd29d.gif)
+
+## Features
+- 3D shape
+- Play button (sorts automatically)
+- Forward button (move at your own pace)
+- Backward button (move at your own pace)
+- Color-coded
+  - blue = original
+  - red = currently being compared
+  - green = good
+- increment value
+- decrement value
+- type value (0 to 200)
 
 # Getting Started with Create React App
 
