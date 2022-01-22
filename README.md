@@ -3,7 +3,7 @@
 ## Algorithms
 
 - Bubble Sort
-- Coming soon
+- Insertion Sort
 - Coming soon
 - Coming soon
 
