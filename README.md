@@ -4,7 +4,7 @@
 
 - Bubble Sort
 - Insertion Sort
-- Coming soon
+- Selection Sort
 - Coming soon
 
 ## Demo
