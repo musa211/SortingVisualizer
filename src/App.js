@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 // Algorithms
 import BubbleSort from './algorithms/BS';
+import InsertionSort from './algorithms/IS';
 
 // Icons
 import Play from '@material-ui/icons/PlayCircleOutlineRounded';
@@ -20,14 +21,15 @@ class App extends Component {
         colorKey: [],
         colorSteps: [],
         currentStep: 0,
-        count: 15,
+        count: 10,
         delay: 500,
-        algorithm: 'Bubble Sort',
+        algorithm: 'Insertion Sort',
         timeouts: [],
     };
 
     ALGORITHMS = {
         'Bubble Sort': BubbleSort,
+        'Insertion Sort': InsertionSort,
     };
 
     componentDidMount() {

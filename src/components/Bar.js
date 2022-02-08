@@ -12,6 +12,7 @@ function Bar({ index, length, color, changeArray }) {
         ['rgba(61, 90, 241, 0.5)', 'rgba(61, 90, 241, 0.2)'],
         ['rgba(255, 48, 79, 1)', 'rgba(255, 48, 79, 0.5)'],
         ['rgba(131, 232, 90, 0.5)', 'rgba(131, 232, 90, 0.2)'],
+        ['rgba(235, 123, 19, 0.5)', 'rgba(235, 123, 19, 0.2)']
     ];
 
     // const barStyle = {
