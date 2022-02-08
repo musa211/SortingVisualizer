@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 // Algorithms
-import BubbleSort from './algorithms/BS';
-import InsertionSort from './algorithms/IS';
+import BubbleSort from './algorithms/BubbleSort';
+import InsertionSort from './algorithms/InsertionSort';
 
 // Icons
 import Play from '@material-ui/icons/PlayCircleOutlineRounded';
@@ -23,7 +23,7 @@ class App extends Component {
         currentStep: 0,
         count: 10,
         delay: 500,
-        algorithm: 'Insertion Sort',
+        algorithm: 'Bubble Sort',
         timeouts: [],
     };
 

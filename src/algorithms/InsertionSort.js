@@ -1,4 +1,4 @@
-const IS = (array, position, arraySteps, colorSteps) => {
+const InsertionSort = (array, position, arraySteps, colorSteps) => {
     let colorKey = colorSteps[colorSteps.length - 1].slice();
 
     let i, j, key;
@@ -29,4 +29,4 @@ const IS = (array, position, arraySteps, colorSteps) => {
     colorSteps[colorSteps.length - 1] = new Array(array.length).fill(2);
 }
 
-export default IS;
+export default InsertionSort;
