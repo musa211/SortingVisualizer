@@ -1,6 +1,6 @@
 import {swap} from './helpers';
 
-const BubbleSort = (array, position, arraySteps, colorSteps) => {
+const Bubble = (array, position, arraySteps, colorSteps) => {
     let colorKey = colorSteps[colorSteps.length - 1].slice();
 
     for (let i = 0; i < array.length - 1; i++) {
@@ -23,4 +23,4 @@ const BubbleSort = (array, position, arraySteps, colorSteps) => {
     return;
 };
 
-export default BubbleSort;
+export default Bubble;
